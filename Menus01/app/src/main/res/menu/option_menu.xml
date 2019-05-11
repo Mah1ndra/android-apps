@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/i1"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:orderInCategory="10"
+        android:title="mic"
+        app:showAsAction="always" />
+    <item android:title="settings"
+        app:showAsAction="never"
+        android:orderInCategory="14"
+        android:id="@+id/i2"
+        />
+    <item android:title="status"
+        android:orderInCategory="11"
+        android:id="@+id/i3"
+        />
+</menu>
